@@ -78,35 +78,37 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'When did Blackpink debut?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'October 23,2018', correct: false },
+      { text: 'August 8,2018', correct: true }
+      { text: 'September 9,2019', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Who collaborated with G-Dragon for the song Black?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Rose', correct: false },
+      { text: 'Jisoo', correct: false },
+      { text: 'Jennie', correct: true },
+      { text: 'Lisa', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Who is the most followed K-pop idol on instagram?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'Jennie', correct: false },
+      { text: 'Jisoo', correct: false },
+      { text: 'Lisa', correct: true },
+      { text: 'Rose', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Which of the Following is their debut song?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Lovesick Girls', correct: false },
+      { text: 'Forever Young', correct: false }
+      { text: 'Whistle', correct: true }
     ]
   }
 ]
