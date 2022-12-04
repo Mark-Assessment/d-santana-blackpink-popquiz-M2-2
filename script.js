@@ -81,7 +81,7 @@ const questions = [
     question: 'When did Blackpink debut?',
     answers: [
       { text: 'October 23,2018', correct: false },
-      { text: 'August 8,2018', correct: true }
+      { text: 'August 8,2018', correct: true },
       { text: 'September 9,2019', correct: false }
     ]
   },
@@ -107,7 +107,7 @@ const questions = [
     question: 'Which of the Following is their debut song?',
     answers: [
       { text: 'Lovesick Girls', correct: false },
-      { text: 'Forever Young', correct: false }
+      { text: 'Forever Young', correct: false },
       { text: 'Whistle', correct: true }
     ]
   }
