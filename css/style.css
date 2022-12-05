@@ -83,3 +83,19 @@
   .hide {
     display: none;
   }
+  /* Styling Footer */
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+  }
+  /* center Picture */
+  .ppicture {
+    width: 100% ;
+    height: 100%;
+    opacity: 0.9;
+  }
