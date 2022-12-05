@@ -18,7 +18,8 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-image: url(/images/blackpink-purple.jpg);
+    background-size: cover;
   }
   
   body.correct {
@@ -29,14 +30,6 @@
     --hue: var(--hue-wrong);
   }
   
-  .container {
-    width: 800px;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
-  }
   
   .btn-grid {
     display: grid;
@@ -93,14 +86,11 @@
     text-align: center;
 
   }
-  /* center Picture */
-  img {
-  display: block;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  }
 
-  .btn {
-    font-weight: 900;
+.card {
+  padding: 5%;
+background-color: rgba(237, 170, 240, 0.836);
+
 }
+
+  
