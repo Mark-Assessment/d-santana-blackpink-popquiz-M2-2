@@ -4,13 +4,17 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const gamer = document.getElementById('game-rules')
-
+const counterspan = document.getElementById('player-score')
+const questionspan = document.getElementById('question-number')
+let questionnumber = 1;
+let rightanswers = 0;
 let shuffledQuestions, currentQuestionIndex
 
 // event listener for start and next buttons//
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
+  questionnumber++;
   setNextQuestion()
 })
 
@@ -25,10 +29,12 @@ function startGame() {
 }
 //this function removes the classes that were applied to the previous response button and sets next questions//
 function setNextQuestion() {
+  questionnumber
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
+  questionspan.innerHTML=questionnumber;
 }
-//
+
 function showQuestion(question) {
   questionElement.innerText = question.question
   question.answers.forEach(answer => {
@@ -77,12 +83,14 @@ function setStatusClass(element, correct) {
     element.disabled = true;
     element.classList.remove('btn')
     element.classList.add('btn-success')
+    rightanswers++;
+    counterspan.innerHTML= rightanswers;
+
   } else {
     // If the answer was wrong, disable all buttons and add bootstrap class to make the incorrect answers red
     element.disabled = true;
     element.classList.remove('btn')
     element.classList.add('btn-danger')
-
   }
 }
 
