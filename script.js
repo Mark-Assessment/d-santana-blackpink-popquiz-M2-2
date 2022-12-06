@@ -57,7 +57,7 @@ function selectAnswer(e) {
     alert('BlackPink in the area!')
   }
   else {
-    alert('wrong')
+    alert('Oops! Wrong answer')
   }
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
@@ -73,11 +73,15 @@ function selectAnswer(e) {
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
+    // If the answer was correct, disable all buttons and add bootstrap class to make the correct answer green
     element.disabled = true;
-    element.classList.add('correct')
+    element.classList.remove('btn')
+    element.classList.add('btn-success')
   } else {
+    // If the answer was wrong, disable all buttons and add bootstrap class to make the incorrect answers red
     element.disabled = true;
-    element.classList.add('wrong')
+    element.classList.remove('btn')
+    element.classList.add('btn-danger')
 
   }
 }
