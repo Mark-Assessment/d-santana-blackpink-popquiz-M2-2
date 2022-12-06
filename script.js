@@ -33,6 +33,7 @@ function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
   questionspan.innerHTML=questionnumber;
+  counterspan.innerHTML= rightanswers;
 }
 
 function showQuestion(question) {
@@ -60,7 +61,8 @@ function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
   if (correct){
-    alert('BlackPink in the area!')
+    alert('BlackPink in the area!');
+    rightanswers++;
   }
   else {
     alert('Oops! Wrong answer')
@@ -73,6 +75,8 @@ function selectAnswer(e) {
   } else {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
+    questionnumber = 1;
+    rightanswers = 0;
   }
 }
 
@@ -83,8 +87,6 @@ function setStatusClass(element, correct) {
     element.disabled = true;
     element.classList.remove('btn')
     element.classList.add('btn-success')
-    rightanswers++;
-    counterspan.innerHTML= rightanswers;
 
   } else {
     // If the answer was wrong, disable all buttons and add bootstrap class to make the incorrect answers red
