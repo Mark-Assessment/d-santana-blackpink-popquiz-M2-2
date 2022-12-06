@@ -3,8 +3,10 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const gamer = document.getElementById('game-rules')
 
 let shuffledQuestions, currentQuestionIndex
+
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -14,6 +16,7 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
+  gamer.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
@@ -50,7 +53,12 @@ function resetState() {
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
-  setStatusClass(document.body, correct)
+  if (correct){
+    alert('BlackPink in the area!')
+  }
+  else {
+    alert('wrong')
+  }
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
@@ -65,9 +73,12 @@ function selectAnswer(e) {
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
+    element.disabled = true;
     element.classList.add('correct')
   } else {
+    element.disabled = true;
     element.classList.add('wrong')
+
   }
 }
 

@@ -4,7 +4,7 @@
   }
   
   :root {
-    --hue-neutral: 200;
+    --hue-neutral: 333;
     --hue-wrong: 14;
     --hue-correct: 145;
   }
@@ -19,11 +19,11 @@
   }
   
   body.correct {
-    --hue: var(--hue-correct);
+    background-color: green;
   }
   
   body.wrong {
-    --hue: var(--hue-wrong);
+    background-color: red;
   }
   /** Black pink logo for background picture **/
   .logo-picture {
@@ -44,9 +44,7 @@
   }
   
   .btn {
-    --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100%, 50%);
+    background-color: #F49AC2	;
     border-radius: 8px;
     color: black;
     outline: none;
@@ -108,5 +106,7 @@
   .score-area p {
     display: inline-block;
     padding: 15px;
+    color: pink;
+    position: sticky;
   }
   
