@@ -18,13 +18,6 @@
     font-weight: 400;
   }
   
-  body.correct {
-    background-color: green;
-  }
-  
-  body.wrong {
-    background-color: red;
-  }
   /** Black pink logo for background picture **/
   .logo-picture {
     margin: -6rem auto 0.5rem auto;
@@ -42,7 +35,9 @@
     gap: 10px;
     margin: 20px 0;
   }
-  
+
+  /*buttons style*/
+
   .btn {
     background-color: #F49AC2	;
     border-radius: 8px;

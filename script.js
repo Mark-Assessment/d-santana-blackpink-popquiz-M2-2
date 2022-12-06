@@ -93,7 +93,8 @@ const questions = [
     answers: [
       { text: 'October 23,2018', correct: false },
       { text: 'August 8,2018', correct: true },
-      { text: 'September 9,2019', correct: false }
+      { text: 'September 9,2019', correct: false },
+      { text: 'August 16,2017', correct: false }
     ]
   },
   {
@@ -119,7 +120,62 @@ const questions = [
     answers: [
       { text: 'Lovesick Girls', correct: false },
       { text: 'Forever Young', correct: false },
-      { text: 'Whistle', correct: true }
+      { text: 'Whistle', correct: true },
+      { text: 'Pink Venon', correct: false }
+    ]
+  },
+  {
+    question: 'Blackpink was the first K-Pop group to perform at?',
+    answers: [
+      { text: 'Coachella', correct: true },
+      { text: 'Tomorrowland', correct: false },
+      { text: 'Summerfest', correct: false},
+      { text: 'Rock in Rio', correct: false }
+    ]
+  },
+  {
+    question: 'What is Rose first single Album?',
+    answers: [
+      { text: 'Solo', correct: false },
+      { text: 'Born Pink', correct: false },
+      { text: '-R-', correct: true},
+      { text: 'The Album', correct: false }
+    ]
+  },
+  {
+    question: 'Who collaborated with Blackpink for the song "sour candy"?',
+    answers: [
+      { text: 'Selena Gomez', correct: false },
+      { text: 'Dua Lipa', correct: false },
+      { text: 'Lady Gaga', correct: true},
+      { text: 'Cardi B', correct: false }
+    ]
+  },
+  {
+    question: 'How many songs are in Blackpink Born Pink Album?',
+    answers: [
+      { text: '5', correct: false },
+      { text: '8', correct: true },
+      { text: '7', correct: false},
+      { text: '12', correct: false }
+    ]
+  },
+  {
+    question: 'Which song became the first K-Pop group to surpass 1 Billion views?',
+    answers: [
+      { text: 'Bombayaah', correct: false },
+      { text: 'Kill this love', correct: false },
+      { text: 'DDU-DU DDU-DU', correct: true},
+      { text: 'DNA', correct: false }
+    ]
+  },
+  {
+    question: 'Jennie is Global ambasador for which Fahion Brand?',
+    answers: [
+      { text: 'Channel', correct: true },
+      { text: 'Yve Saint Laurent', correct: false },
+      { text: 'Dior', correct: false},
+      { text: 'Celine', correct: false }
     ]
   }
 ]
