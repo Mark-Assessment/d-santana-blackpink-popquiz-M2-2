@@ -7,7 +7,7 @@ const gamer = document.getElementById('game-rules')
 
 let shuffledQuestions, currentQuestionIndex
 
-
+// event listener for start and next buttons//
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
@@ -17,17 +17,18 @@ nextButton.addEventListener('click', () => {
 function startGame() {
   startButton.classList.add('hide')
   gamer.classList.add('hide')
+  //this variable returns a random question from the question arrays//
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
-
+//this function removes the classes that were applied to the previous response button and sets next questions//
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
 }
-
+//
 function showQuestion(question) {
   questionElement.innerText = question.question
   question.answers.forEach(answer => {
@@ -41,9 +42,8 @@ function showQuestion(question) {
     answerButtonsElement.appendChild(button)
   })
 }
-
+// hides next button and runs a loop to remove each child(answer button) from previous question//
 function resetState() {
-  clearStatusClass(document.body)
   nextButton.classList.add('hide')
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
