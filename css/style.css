@@ -42,10 +42,11 @@
     --hue: var(--hue-neutral);
     border: 1px solid hsl(var(--hue), 100%, 30%);
     background-color: hsl(var(--hue), 100%, 50%);
-    border-radius: 5px;
-    padding: 5px 10px;
-    color: white;
+    border-radius: 8px;
+    color: black;
     outline: none;
+    font-weight: 500;
+    
   }
   
   .btn:hover {
@@ -62,9 +63,9 @@
   }
   
   .start-btn, .next-btn {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 15px 30px;
   }
   
   .controls {
@@ -76,26 +77,16 @@
   .hide {
     display: none;
   }
-  /* Styling Footer */
-
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-
-  }
-
+  
 .card {
   padding: 5%;
-background-color: rgba(237, 170, 240, 0.836);
+  background-color: rgba(248, 235, 249, 0.836);
 
 }
 
 #question {
   font-size: x-large;
-  font-weight: 300;
+  font-weight: 500;
 }
 
   
