@@ -48,8 +48,6 @@ Main aim is to build responsive website with HTML JAVASCRIPT and CSS only. I hav
 The main purpose of this website is for  all Blackpink fans known as Blinks,and the new fans to 
 have a fun time playing this pop quiz that cointains interesting data from Blackpink.
 
-
-
 ## User goals
 
 ### New user goals:
@@ -63,26 +61,20 @@ have a fun time playing this pop quiz that cointains interesting data from Black
 - users to be able to play the game and expect website to match Blackpink colors insignia nicely.
 
 ## User stories
-
-### As a business owner:
-* I would like to present myself and my offer on the website clearly to potential customers.
-* I need to make sure that my current and new customers will find a professional help and motivation in the website .
-* I want my customers to be able to learn how to use my website intuitively and easily.
-* I would like to build and maintain relationship with potential and current customers.
+* As user I want you to land on main page and be able to tell what is the game about.
+* As user I want you to easily navigate through the website.
+* As user I want you to press Play and play the game.
+* As user I want you to see Rules before the game starts.
+* As user I want you to be able to tell how good you have done with questions by tracking the Score.
+* As user I want you to be able to press one of the buttons  and see the color of it, if theAnswer is Correct or Incorrect.
 
 ### As a new customer:
-* I wish to find information about the personal the services that the stylist offers .
-* I would like to be able to contact the personal stylist with any questions I may have about her services. 
-* I want to hire her as my personal stylist , to understand how to dress myself , feel confident  and find a way to use everything I have in my closet without spending more money ans reusing what I already have.
-
-### As a returning customer:
-
-* I need to keep contacting my personal stylist through the website to buy new sessions, products or serivices that she offers.
-* I want to refer this personal stylist to my friends or family and show them the gallery of pictures with all the results of previous customers in that way they will feel reasured of buying her services that she offers. 
-
+* I wish to find information about the girl group in an easy .
+* I would like to know my score throughout the game. 
+ 
 ## Structure of the website
 
-The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction including the color palette that has been used. User will get some interaction from the interface as there are some effects in bottons of  the navbar.
+The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction including the color palette that has been used. User will get some interaction from the interface .
 
 ## Wireframes
 
