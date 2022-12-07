@@ -104,79 +104,33 @@ Main colours used in a project:
 * background color: #00000
 * button color : HEX #F49AC2
 
-
-
 ### Fonts 
 
-* As a main font I used sans Roboto , and as a backup Kanit, sans-serif and more. 
+* As a main font I used Sans Roboto , and as a backup Kanit, sans-serif and more. 
 
 ### Images
 
-* I used images from [pexels.com](www.pexels.com) and there are credited in [credits](#credits) section.
-* I used images from [thispersondoesnotexist.com](www.this-person-does-not-exist.com) and there are credited in [credits](#credits) section.
-* I used images from [freepik.com](www.freepik.com) and there are credited in [credits](#credits) section.
-* I used images from [unsplash.com](www.unsplash.com) and there are credited in [credits](#credits) section.
-
-* I used images from [burst.shopify.com](www.burst.shopify.com) and there are credited in [credits](#credits) section.
-
-
-
-
+* I used images from [SeekLogo](seeklogo.com) and there are credited in [credits](#credits) section.
 
 [Back to Table of contents](#table-of-contents)
 ___
 # Features
 
-The website consists of three pages. Every page and section is accessible from the navigation menu.
-
+* The website consists of one page.
+* Responsive in all devices that players want to use.
+* Interactive buttons.
+* counter for questions and correct answers.
 
 The website has the folowing features:
 
-## Navigation bar
-
-* #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
-* Navigation scheme:
-
-    * On left side there I put a logo (personal stylist name). It can be used as navigation link to the main page.
-    * On right side there are three links or a burger menu. It contains the following:
-        * Home
-        * Gallery
-        * Contact
-
-
-
-## Footer
-
-* Footer is always consistent on all pages, it has social links centered on it.
-Each link will open in a separate new tab in a browser. I've  added hover effects to each of them and it is based on the color pallete that has been choosen for the website.
-
 ## Home
-
-* ### Services ,About section
-
-    * This section includes personal stylist qualities and skills that she offers to her customer . 
-
-* ### Testimonials section
-
-    * This section includes 3 separate testimonials from current clients of the personal stylist.
-
-
-
-## Gallery
-
-* This page has pictures of 6 different customers and it is showing the results after using the personal stylist training and services.
-
-## Contact
-
-* The Contact form is the main part on this website. User can contact the personal stylist by filling a form with name , email and write any enquerie to her.
-There's also a botton on the home page that links to the contact page.
+* Users can see the rules and the button start from the beginning and after each question they can see features like the button next and also the score for correct answers plus how many questions they have done. 
 
 ##  Future implementations
 
-
-* Add new page displaying  social media examples .
-* A blog site with styles tips , seasonal trends, posting popular questions from customer and showing the answer on the website as a highlight in it .
-* A Login site for different types of paid content including stylist masterclass, selling customize color palettes to customer .
+* Add new score table and a user bakcup to compare your score with other people .
+* A blog section in a new page so friends and others people can leave comments and interact between them .
+* link an Spotify API to hear Blackpinks music while customers play the game.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -189,12 +143,11 @@ ___
 ### CSS
 * As a style language.
 
+### Javascript
+* As a programing language.
+
 ### Bootstrap 
 * Bootstrap as a CSS framework to keep responsive, mobile first aproach.
-
-### Font Awesome
-* As an icon library for a social links and the gallery header style.
-
 
 ### GitHub
 * As a software hosting platform to keep project in a remote location.
@@ -205,10 +158,8 @@ ___
 ### Gitpod
 * As a development hosting platform.
 
-### Balsamiq.cloud
+### Mockup App
 * As a wireframing tool.
-
-
 
 
 [Back to Table of contents](#table-of-contents)
@@ -229,39 +180,18 @@ ___
 
 ## User stories testing
 
-### As a business owner:
+### As a User :
 
-- I would like to present myself and my offer on the website clearly to potential customers.
-    >The name of the personal stylist is her logo and at the same time , it has been display in the navigation bar at all times .Her photo is the first image presented to the customers  in the home page , and her proven skills is also highlited in the home page. 
+- As user I want you to land on main website page and be able to tell what is the game about.
+    >Expected results is user looking at the logo and identifying the main theme of the website and see the rules of the game straightaway.
 
-- I need to make sure that my current and new customers will be able to always contact me with any questions and that it is easy to find the form to do it . 
-    > Customers can achieve this by typing the info in  contact form. Customers  can choose any  topic of interest and problems that they may encounter  in a message box.
+- As user I want the user to easily navigate through the website.
+    > The expected results is user looking at the buttons to in game and be able to press them and pass to the next question.
 
-- I want my customers to be able to learn how to use my website intuitively and easily.
-    > Each page has a fixed navigation menu and is accessible at all times. All content was design and presented with a minimalistic approach.
-
-- I would like to keep building and maintain my relationship with potential and current customers.
-    > Customers are able to find all links to social channels at the bottom of each page. Apart from the botton icons they can contact me with the contact form.
+- I want my customers to be able to identify the correct and wrong answers.
+    > User can see will the colors red and green which answers i correct and the score is reflected.
 
 
-### As a new customer:
-- I wish to find information about the personal stylist and check her previous achievement with the customers reviews and pictures proving this.
-    > User can see all this essential description on the home page.
-
-- I would like to get in touch with the personal stylist to ask about my seasonal palette and the typer of clothes that looks the best in me .
-    > User can find a contact form in contact page to get in touch . 
-
-
-### As a returning customer:
-- I need to contact my personal stylist to do followups of new questions that I may have , also how to keep styling myself including the new trends.
-    > User can find social media links at the botton of website to keep in touch with the stylist in that way they can check the lastest advice of new services.
-
-
-- I want to show my family and friends pictures of her styling results .
-    > The gallery page has different pictures of different types of customers and their results. 
-
-
----
 ## Issues found during site development
 
 * #### Navbar links  displaying on the wrong side of the screen in desktops devices. 
