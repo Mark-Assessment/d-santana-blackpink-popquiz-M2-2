@@ -69,7 +69,7 @@ have a fun time playing this pop quiz that cointains interesting data from Black
 * As user I want you to be able to press one of the buttons  and see the color of it, if theAnswer is Correct or Incorrect.
 
 ### As a new customer:
-* I wish to find information about the girl group in an easy .
+* I wish to find information about this girl group in an easy and fun way.
 * I would like to know my score throughout the game. 
  
 ## Structure of the website
@@ -78,7 +78,7 @@ The website is designed to be easy and user-friendy on all type of devices. On d
 
 ## Wireframes
 
-I used website balsamiq.cloud to create the wireframes for desktop, tablet and mobile view.
+I used the Mockup app to create the wireframes for desktop, tablet and mobile view.
 
 ## Desktop View Home
 
