@@ -43,24 +43,24 @@ Main aim is to build responsive website with HTML JAVASCRIPT and CSS only. I hav
 
 # UX
 
-## Website owner business goals
+## Website owner motivation goals for project 
 
-The main purpose of this website is to help present a Personal Stylist to the public.
-Page owner can present herself, her professional development path, and proven achievements.
-Also this website is the best place to show the different types of personal services that she can offer to all customers, assuring new ones , using pictures and  testimony from previous customers.
+The main purpose of this website is for  all Blackpink fans known as Blinks,and the new fans to 
+have a fun time playing this pop quiz that cointains interesting data from Blackpink.
+
 
 
 ## User goals
 
 ### New user goals:
-- user is able to find information about the Personal Stylist.
-- user can easily locate  current client testimony.
+- user can easily see that this is K-pop Girk Group pop quiz.
+- user is able to find the instrunctions on the landing page.
+- user can easily locate the start button and the counter at the bottom.
 
 
-### Returning user goals:
-- user can learn more about the Personal Stylist new services.
-- user is able to find gallery with pictures of updated results of new customers .
-- user can send a message to the Stylist using a contact form.
+### Expectations from user goals:
+- user can learn more about Blackpink new records and new updated information when they come back to the website.
+- users to be able to play the game and expect website to match Blackpink colors insignia nicely.
 
 ## User stories
 
