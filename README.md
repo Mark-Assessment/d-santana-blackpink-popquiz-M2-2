@@ -2,16 +2,16 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![Alt text](docimages/amairesponsive-screenshot.png)
+![Alt text](images/amiresponsive-pinkblack.png)
 
 Website presents Domenica's portfolio-2 project called Blackpink Pop Quiz .
 Users will be able to find interesting content in easy and simple way.
 
 This project is for educational purposes and can not be used as a template for a business use.
-Main aim is to build responsive website with HTML JAVASCRIPT and CSS only. I have used Bootstrap framework to keep website consistent and clear.
+Main aim is to build responsive website with HTML ,JAVASCRIPT and CSS only. I have used Bootstrap framework to keep website consistent and clear.
 
 
-## [View life website in github pages](https://domenicasantana.github.io/fashion-stylist/index.html)
+## [View life website in github pages](https://domenicasantana.github.io/blackpink-pop-quiz/)
 ---
 
 # Table of contents
@@ -58,7 +58,7 @@ have a fun time playing this pop quiz that cointains interesting data from Black
 
 ### Expectations from user goals:
 - user can learn more about Blackpink new records and new updated information when they come back to the website.
-- users to be able to play the game and expect website to match Blackpink colors insignia nicely.
+- users to be able to play the game and expect website to match Blackpink insignia colors nicely.
 
 ## User stories
 * As user I want you to land on main page and be able to tell what is the game about.
@@ -120,6 +120,8 @@ ___
 * Responsive in all devices that players want to use.
 * Interactive buttons.
 * counter for questions and correct answers.
+* User will have a message if the answer is correct: Blackpink in the area !, which is a famous sentence in the fandom of 
+  Blackpink in their albums and concerts ,so it is a nice surprise for the fans to read that.
 
 The website has the folowing features:
 
@@ -194,38 +196,26 @@ ___
 
 ## Issues found during site development
 
-* #### Navbar links  displaying on the wrong side of the screen in desktops devices. 
+* #### Button not showing right or wrong color. 
 
-When displaying the website on desktops devices , my navbar bar elements displayed on the left side of the screen right next to the logo and it making it look too crowded ruining the users experience.
+When the user selected the answer the wrong or right color styling rule wasnt been applied to the relevant buttons.
+> I fixed it by ussing bootstrap custom style classes instead of writing my own style .
 
-> I fixed it by changing the bootstrap class name to ms-auto .
+![Desktop website problem](images/problem-3.png)
 
+* #### The counter was not been reset at the end of the game.
 
-* #### The call to action botton was not centered in tablets , mobiles devices
+When counter for questions and score in the footer was not working.
+> I fixed this by reseting the counter variable every time that the reset button was pressed.
 
-
-When displayed on tablets and mobile devices the botton on the home page was looking out of placed , it was displayed on the left side. 
-
-> I fixed this by taking it out of the buttob out of the previous div and giving it a new div with the bootstrap classes col and text-center. 
-
+![Desktop website problem](images/scorebug.png)
 
 ## Performance testing
 
 I run [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) tool to check performance of the website.
-I had to do several changes to improve performance, specially replacing images for lighter formats such as .webp which improved the performance significantly. Screenshots are presented below:
-
-Before:
-
-![performance before](docimages/lighthouse-before.png)
-
-
 
 Final results:
-![performance_final](docimages/lighthouse-results.png)
-
-I noticed that this tests scores vary from time to time and depends on external libraries as well. 
-
-
+![performance_final](images/result-performance.png)
 
 ## Code Validation
  At the and of the project I used two websites to validate my code
@@ -234,6 +224,11 @@ I noticed that this tests scores vary from time to time and depends on external 
 
 
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
+
+
+ * [Jshint Checker](https://jshint.com/) to test Javascript
+
+
 
 
 [Back to Table of contents](#table-of-contents)
@@ -246,20 +241,20 @@ I used push command in Gitpod to save changes into GitHub.
 
 To deploy a project I had to:
 
-* Log in to GitHub and click on repository to deploy ([fashion-stylist](https://domenicasantana.github.io/fashion-stylist/index.html))
+* Log in to GitHub and click on repository to deploy ([blackpink-pop-quiz](https://domenicasantana.github.io/blackpink-pop-quiz/))
 * select `Settings` and find GitHub Pages section at the very bottom of the page
 * from source select `root` and then `main` branch.
 * click `save` and page was deployed after auto-refresh.
->  Your site is published at https://domenicasantana.github.io/fashion-stylist/index.html
+>  Your site is published at https://domenicasantana.github.io/blackpink-pop-quiz/
 
 To run localy:
-* Log in to GitHub and click on repository to download ([fashion-stylist](https://domenicasantana.github.io/fashion-stylist/index.htmls))
+* Log in to GitHub and click on repository to download ([blackpink-pop-quiz](https://github.com/domenicasantana/blackpink-pop-quiz))
 * select `Code` and click Download the ZIP file.
 * after download you can extract the file and use it in your local environment 
 
 Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-this repository ([fashion-stylist](https://github.com/domenicasantana/fashion-stylist)) into your github account.
+this repository ([blackpink-pop-quiz](https://github.com/domenicasantana/blackpink-pop-quiz)) into your github account.
 
 [Back to Table of contents](#table-of-contents)
 ___
@@ -268,98 +263,37 @@ ___
 
 * To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-* I used Startbootstrap's Full Width Pics template: [ template](https://startbootstrap.com/template/full-width-pics)
-
 * Ideas and knowledge library:
 
     * [w3schools.com](https://www.w3schools.com)
 
     * [css-tricks.com](https://css-tricks.com/)
 
-    * I used Startbootstrap's Gallery with Images Thumbnails template: [template](https://startbootstrap.com/snippets/thumbnail-gallery) 
+     * [youtube.com](https://www.youtube.com) I used different videos of creators that gave multiple ideas for javascript codes .
 
-     * [mdbootstrap.com](https://mdbootstrap.com/docs/standard/navigation/footer/)
-     I used this code for the footer and then I customized with my own changes also using bootstrap. 
+     * [zoompi.com](https://www.soompi.com/article/1538344wpp/quiz-direct-a-blackpink-mv-and-well-guess-your-bias) I used this website and article for questions ideas for the game. 
 
-
-    
     * [stackoverflow.com](https://stackoverflow.com/) I used stack overflow constantly whenever I was unsure about HTML or CSS syntax or wanted to find an easier more stream-lined way of doing things.
-   
 
-* Other Tools:
-  
-   * [convertio.co](https://convertio.co/download/8f5e5e55e6f0ba84bea69ead1b619d2dd0cbf7/) I used convertio to convert my images to lighter formats which improved the performance of the site significantly.
-
-### Code
-
-* Bootdey: [services list](https://www.bootdey.com/snippets/view/Services)
-I used this list template and then modified it . 
-* Mdbootstrap: [Form](https://mdbootstrap.com/docs/standard/extended/registration/)
-I used and modified this form 
-
-### General Content:
-
-*  Testimonials:  [bbbotstrao.com](https://bbbootstrap.com/snippets/bootstrap-5-user-testimonial-star-ratings-51527336)
-I used this part of this code to the the testimony in homepage and then I modified it .
-
-
+    * [bootstrap.com](https://www.bootsrap.com) I used this website to understand how to use different styles in my website.  
 
 
 
 ### Images:
 
-#### freepik.com:
-* [assets/images/black-background.jpg](https://www.freepik.com/free-photo/attractive-woman-wearing-hat-posing-black-background_14482579.htm#query=background%20fashion&position=21&from_view=search) image by serhii_bobyk on Freepik
-
-* [assets/images/skirt-sweater.jpg](https://www.freepik.com/free-photo/set-with-fashionable-women-s-clothing-skirt-sweater-sandals-accessories-top-view-flat-lay_20083375.htm#page=2&query=clothes&position=12&from_view=search) image by pvproductions on freepik
-
-#### pexels.com:
-* [assets/images/pexels-aizhana-aldanova.jpg](https://www.pexels.com/photo/woman-wearing-white-shirt-and-yellow-skirt-sitting-on-brown-concrete-brick-stairs-983564/) Photo by Aizhana Aldanova from Pexels 
-
-* [assets/images/pexels-anastasiya-gepp-2065200.jpg](https://www.pexels.com/photo/woman-standing-wearing-white-floral-lace-blouse-2065200/) Photo by Anastasiya Gepp from Pexels 
-
-* [assets/images/pexels-godisable-jacob-1394882.jpg](https://www.pexels.com/photo/woman-standing-at-outdoors-while-holding-black-leather-bag-1394882/) Photo by Godisable Jacobs from Pexels 
-
-* [assets/images/pexels-konstantin-mishchenko-1926769.jpg](https://www.pexels.com/photo/woman-standing-indoor-1926769/) Photo by Konstantin Mischchenko from Pexels 
-
-
-#### thispersondoesnotexist.com:
-* [assets/images/profile-picture-nina.webp](/this-person-does-not-exist.com) Photo by AIfrom thispersondoesnotexist
-
-* [assets/images/avatar-millie.webp](/this-person-does-not-exist.com) Photo by AI from thispersondoesnotexist
-
-
-* [assets/images/avatar-andrea.webp](/this-person-does-not-exist.com) Photo by AI photo from thispersondoesnotexist
-
-#### unsplash.com:
-
-* [assets/images/vladimir-yelizarov-2OhHpRu2Fhg-unsplash.jpg](https://unsplash.com/photos/2OhHpRu2Fhg) Photo by Vladimir Yelizarov from unsplash
-
-#### burst.shopify.com:
-* [assets/images/womens-summer-fashion.jpg](https://burst.shopify.com/photos/womens-summer-fashion?q=fashion) Photo by Sarah Pflug from burst shopify
+#### seeklogo.com:
+* [images/pink-logo.png](https://seeklogo.com/vector-logo/306510/blackpink) image by Designer:Jiatjun.
 
 
 [Back to Table of contents](#table-of-contents)
 ___
 
-# Screenshots
-
 ## Project screenshots
 
 ### Home Page
 
-![Home Page](docimages/Screenshot-home-1.png)
-![About-Me-instroduction](docimages/Screenshot-home-2.png)
-![Testimonials](docimages/screenshot-footer-home.png)
-
-### Contact Page
-
-![Contact Page](docimages/Screenshot-form.png)
-
-### Gallery Page
-
-![Gallery Page](docimages/Screenshot-gallery.png)
-
+![Home Page](images/homepage-pink.png)
+![Questions Page](images/questions-pink.png)
 
 [Back to Table of contents](#table-of-contents)
 ___

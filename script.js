@@ -74,8 +74,8 @@ function selectAnswer(e) {
   } else {
     startButton.innerText = 'Restart';
     startButton.classList.remove('hide');
-    questionnumber = 1;
-    rightanswers = 0;
+     questionnumber = 1;
+     rightanswers = 0;
   }
 }
 
