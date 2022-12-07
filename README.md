@@ -186,10 +186,10 @@ ___
     >Expected results is user looking at the logo and identifying the main theme of the website and see the rules of the game straightaway.
 
 - As user I want the user to easily navigate through the website.
-    > The expected results is user looking at the buttons to in game and be able to press them and pass to the next question.
+    > The expected results is user looking at the buttons in game and be able to press them and pass to the next question.
 
 - I want my customers to be able to identify the correct and wrong answers.
-    > User can see will the colors red and green which answers i correct and the score is reflected.
+    > User can see whith the colors red and green which answers is correct and the score is reflected.
 
 
 ## Issues found during site development
