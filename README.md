@@ -82,56 +82,33 @@ I used the Mockup app to create the wireframes for desktop, tablet and mobile vi
 
 ## Desktop View Home
 
-![Desktop Home Wireframes](docimages/website-home.png)
-
-## Desktop View Gallery
-![Desktop Gallery Wireframes](docimages/website-gallery.png)
-
-## Desktop View Form
-![Desktop Form Wireframes](docimages/website-form.png)
+![Desktop Home Wireframes](images/website-computer.png)
 
 
 ## Tablet View Home
 
-![Tablet Home Wireframes](docimages/ipad-home.png) 
-
-## Tablet View Gallery
-
-![Tablet Gallery Wireframes](docimages/ipad-gallery.png) 
-
-## Tablet View Form
-
-![Tablet Form Wireframes](docimages/ipad-form.png) 
+![Tablet Home Wireframes](images/ipad-websites.png) 
 
 
 ## Mobile View Home
 
-![Mobile Home Wireframes](docimages/phone-home.png) 
-
-## Mobile View Gallery
-
-![Mobile Gallery Wireframes](docimages/phone-gallery.png) 
-
-## Mobile View Form
-
-![Mobile Form Wireframes](docimages/phone-form.png) 
-
+![Mobile Home Wireframes](images/iphonepro-website.png) 
 
 
 ## Surface
 
 ### Colors
-![palette](docimages/palette-color.png) 
+![palette](images/project2-palette.png) 
 
 Main colours used in a project:
-* background color: #ffffff
-* navigation bar color: #2e1437
-* footer color1: #51425f
+* background color: #00000
+* button color : HEX #F49AC2
+
 
 
 ### Fonts 
 
-* As a main font I used sans serif , and as a backup I used roboto and more. 
+* As a main font I used sans Roboto , and as a backup Kanit, sans-serif and more. 
 
 ### Images
 
