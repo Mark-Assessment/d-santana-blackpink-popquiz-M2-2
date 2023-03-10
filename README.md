@@ -185,6 +185,8 @@ Automated testing is a type of testing that uses software tools to execute tests
 
 * Scalability: Automated tests can be scaled up to run thousands of tests in parallel, making it possible to test large and complex applications.
 
+Although I could have used Jest to ensure continuous testing as the project developed, I did NOT use Automated testing in this ocassion as I didn't have the time capacity in the project window to get this set up correctly, Instead I used manual testing as follows:
+
 ### Manual Testing
 
 Manual testing is a type of testing that involves human testers manually executing test cases and exploring the software application to identify defects. It is a time-consuming and error-prone process, but it can be very effective in identifying defects that may be missed by automated testing. Here are the principles of manual testing:
@@ -199,13 +201,8 @@ Manual testing is a type of testing that involves human testers manually executi
 
 * User perspective: Manual testing can provide a user perspective on the software application.
 
-![Manual Testing Tablets](images/ipadmini-testing.png)
 
-![Manual Testing Galaxy Phones](images/galaxy-testing.png)
 
-![Manual Testing Iphone Phones](images/iphone-testing.png)
-
-### Manual Testing ....
 
 Blackpink Pop Quiz was manually tested with the below user acceptance testing:
 
@@ -244,6 +241,12 @@ Blackpink Pop Quiz was manually tested with the below user acceptance testing:
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools. 
  
  I tested on hardware devices such as: Ipad air with iOS, Iphone SE mini with iOS , Macbook air with MacOS
+
+ ![Manual Testing Tablets](images/ipadmini-testing.png)
+
+![Manual Testing Galaxy Phones](images/galaxy-testing.png)
+
+![Manual Testing Iphone Phones](images/iphone-testing.png)
 
  ## Browser Compatibility :
 
