@@ -169,6 +169,36 @@ ___
 ___
 # Testing
 
+## Automated Testing and Manual Testing
+
+### Automated Testing
+
+Automated testing is a type of testing that uses software tools to execute tests. It involves the use of specialized software to write and run test scripts that can quickly and efficiently test software applications. Here are the principles of automated testing:
+
+* Repeatability: Automated tests are repeatable, meaning they can be run repeatedly with the same results.
+
+* Consistency: Automated tests are consistent in the way they run and the results they produce.
+
+* Efficiency: Automated tests can execute quickly and efficiently, which allows for faster testing and quicker feedback.
+
+* Accuracy: Automated tests are more accurate than manual testing, as they reduce the chances of human error.
+
+* Scalability: Automated tests can be scaled up to run thousands of tests in parallel, making it possible to test large and complex applications.
+
+### Manual Testing
+
+Manual testing is a type of testing that involves human testers manually executing test cases and exploring the software application to identify defects. It is a time-consuming and error-prone process, but it can be very effective in identifying defects that may be missed by automated testing. Here are the principles of manual testing:
+
+* Exploratory: Manual testing involves exploring the software application to identify defects that may not be captured by test cases.
+
+* Creativity: Manual testing requires creativity and critical thinking to identify defects that may not be obvious.
+
+* Flexibility: Manual testing allows testers to adjust their testing approach based on the results they find.
+
+* Adaptability: Manual testing allows testers to adapt to changes in the software application or testing environment.
+
+* User perspective: Manual testing can provide a user perspective on the software application.
+
 ## Functionality testing 
 
  I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and for style issues.
