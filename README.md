@@ -199,6 +199,42 @@ Manual testing is a type of testing that involves human testers manually executi
 
 * User perspective: Manual testing can provide a user perspective on the software application.
 
+![Manual Testing Tablets](images/ipadmini-testing.png)
+
+![Manual Testing Galaxy Phones](images/galaxy-testing.png)
+
+![Manual Testing Iphone Phones](images/iphone-testing.png)
+
+### Manual Testing ....
+
+Blackpink Pop Quiz was manually tested with the below user acceptance testing:
+
+| Stage of Game | User Action | Expected Result | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| Landing Page | | | | |
+| | Click on start button | Game instructions are hidden  | Pass | |
+| |  | Game starts , first question is displayed | Pass | |
+| Select an Answer| | | | |
+| | Click Right Answer button | Modal with phrase 'blackpink in the area!' pops up  | Pass | |
+| |  | Color of right answer button changes to green | Pass | |
+| |  | Color of wrong answers buttons changes to red | Pass | |
+| |  | Score increases by one  | Pass | |
+| |  | Question number increases by one  | Pass | |
+| |  | Next button appears after user press ok inside of modal  | Pass | |
+| | Click Wrong Answer button | Modal with phrase 'Oops! Wrong answer' pops up  | Pass | |
+| |  | Color of wrong answers buttons changes to red | Pass | |
+| |  | Color of right answer button changes to green | Pass | |
+| |  | Score does not increase  | Pass | |
+| |  | Question number increases by one  | Pass | |
+| |  | Next button appears after user press ok inside of modal  | Pass | |
+| | Select Answer in Question 10 | Restart button appears  | Pass | |
+| Restart button  | | | | |
+| | Click Restart button | Game is restarted , and the game starts again | Pass | |
+| | Restart button is clicked | Questions will shuffle but this is not visible | Pass | |
+| Main Game before the start button is clicked| | | | |
+| | Click on score | nothing happens | Pass | |
+| | Question counter| clicking it has no effect | Pass | |
+
 ## Functionality testing 
 
  I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and for style issues.
@@ -252,11 +288,17 @@ Final results:
  
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
 
+ ![](images/css-validator.png)
+
 
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
 
+  ![](images/html-validation.png)
+
 
  * [Jshint Checker](https://jshint.com/) to test Javascript
+
+ ![](images/jshint-validator.png)
 
 
 
