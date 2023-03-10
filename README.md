@@ -245,6 +245,22 @@ Blackpink Pop Quiz was manually tested with the below user acceptance testing:
  
  I tested on hardware devices such as: Ipad air with iOS, Iphone SE mini with iOS , Macbook air with MacOS
 
+ ## Browser Compatibility :
+
+ The game has been tested on these three browsers that I have available to me on my macbook air computer. The game works exactly the same accross all 3 browsers.
+I tested for game wins and all features, button clicks etc. 
+
+- [Chrome](https://www.google.com/chrome)
+- [Firefox](https://www.mozilla.org/firefox)
+- [Opera](https://www.opera.com/download)
+
+| Browser | Screenshot | Notes |
+| --- | --- | --- |
+| Chrome | ![screenshot](images/chrome-testing.png) | Works as expected |
+| Firefox | ![screenshot](images/firefox-testing.png) | Works as expected |
+| Opera | ![screenshot](images/opera-testing.png) | Works as expected |
+
+
 
 ## User stories testing
 
